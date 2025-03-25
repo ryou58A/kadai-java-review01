@@ -8,8 +8,8 @@ public class Review01 {
     }
 
     public static int tax(int price) {
-        int taxRate = 10;
-        int result = price / taxRate;
+        double taxRate = 0.1;
+        int result = (int)(price * taxRate);
         return result;
     }
 
